@@ -1,3 +1,8 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
 body{
     background: rgb(235, 85, 85);
     color: white;
@@ -18,8 +23,14 @@ p{
 }
 
 a{
-    background-color: rgb(89, 89, 146);
+    background-color: rgb(186, 186, 227);
 }
 div{
     background-color: yellowgreen;
+}
+span{
+    background-color: rgb(85, 56, 53);
+}
+h3{
+    background-color: rgb(171, 134, 134);
 }
