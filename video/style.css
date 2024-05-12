@@ -1,0 +1,25 @@
+body{
+    background: rgb(235, 85, 85);
+    color: white;
+    
+}
+td{
+    border: 2px solid black;
+}
+caption{
+    border: 2px solid black;
+}
+li{
+    color: black;
+}
+
+p{
+    background-color: rgb(9, 248, 168);
+}
+
+a{
+    background-color: rgb(89, 89, 146);
+}
+div{
+    background-color: yellowgreen;
+}
