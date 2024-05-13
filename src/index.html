@@ -2,19 +2,93 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="refresh" content="" />
+    <link rel="icon" href="logo.png" type="logo.png" >
     <meta
       name="description"
-      content="my name is mahesh iam here for helping how to build simple websites"
-    />
+      content="my name is mahesh iam here for helping how to build simple websites"/>
+    
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+     <!--In semantic webite which tag are included.
+     <!DOCTYPE html>
+     <html lang="en">
+       <head>
+         <meta charset="UTF-8" />
+         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <meta http-equiv="refresh" content="" />
+         <link rel="icon" href="logo.png" type="logo.png" >
+         <meta
+           name="description"
+           content="my name is mahesh iam here for helping how to build simple websites"/>
+         
+         <title>Document</title>
+         <link rel="stylesheet" href="style.css" />
+       </head>
+       <body>
+         <header>
+           <nav>
+             <ul>
+               <li>home</li>
+               <li>about</li>
+               <li>contact</li>
+             </ul>
+             <aside></aside>
+             <main>
+               <time datetime="">Time</time>
+               <h1>here is semantic</h1>
+               <img src="semantic.png" alt="here is photo of differ between sematic and non semantic" height="300" width="400">
+               <article>
+                 <figcaption>
+                 </figcaption>
+                 <figure>
+                   <p>
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore fugit odit earum.
+                   </p>
+                 </figure>
+               </article>
+             </main>
+           </nav>
+           <footer>
+             copyright | all rights reserved
+           </footer>
+         </header>
+       </body>
+     </html>-->
+     
   <body>
     <h1 style="text-align: center">mahesh here</h1>
 
     <h2>Form for partner for me building this website</h2>
+     <!-- &lt;  for <
+          &gt;  for >
+          &amp; for &
+          &nbsp; for a non-breaking space
+          &copy; for ©
+          x-->
+    <p>The price is 10 &lt; 20.</p>
+    <p>Copyright &copy; 2023.</p>
+    <p>This is an example&nbsp;text.</p>
+
+
+
+    <blockquote cite="source-url">
+      Quotation text here.
+    </blockquote>
+    <q cite="source-url">Quotation text here.</q>
+    <blockquote cite="https://example.com">
+      This is a long quote from an external source. This quote can span multiple lines and paragraphs.
+    </blockquote>
+    The philosopher said, <q cite="https://example.com">The unexamined life is not worth living.</q>
+    <font color="voilet" size="3" face="verdana">This is some text</font>
+    <center>This text will be centered</center>
+    <u>This text will be underlined</u>
+
+
     <form action="post"></form>
 
     <div>
@@ -41,7 +115,7 @@
       <input type="checkbox" id="Subscribe" name="Subscribe" value="yes" />
       <label for="Subscribe">Subscribe to any channel</label>
     </div>
-
+  
     <div>
       <div>
         <label for="Comment">Enter Your Own Text:</label>
@@ -94,8 +168,12 @@
           placeholder="Pincode"
           style="text-align: center"
         />
+        <div>
+          <input type="submit" value="Submit"/>
+        </div>
       </div>
     </div>
+
     <!--id is attribute of class of unique element and class is give for same-name to the multiple element -->
     <div id="firstdiv" class="red">first</div>
     <div id="seconddiv" class="">second</div>
@@ -204,7 +282,31 @@
     </table>
 
     <h1>here we ar testing the website</h1>
-    <div class="container">
+    <hr>
+    <div id="audiodiv" align="center">
+      <audio src="audio.mp3" controls , align="center">Mother Theme</audio>
+    </div>
+    <!--<iframe src="Any link u can paste here" height="350" width="1200"></iframe>-->
+    <div id="iframediv">
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/p2LlM-RYRto?si=E5gNpawMV34sSYMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://maps.google.com/maps?q=LOCATION&output=embed" frameborder="0" width="300" height="300"></iframe>
+    </div>
+    <div>
+      
+      <pre id="prediv"><code>
+        public class main{
+          public static void main(String[] args) {
+            System.out.println("Hello World");
+          }
+        }
+      </code></pre>
+    </div>
+
+    <hr>
+    
+    <div id="" align="center">
+    <div class="container"> <!---here is container-->
       <div>
         <h3 style="text-align: center">video1</h3>
         <video
@@ -212,8 +314,7 @@
           controls
           width="700"
           height="500"
-          style="video-align: left"
-        >
+          style="video-align: left">
           video1
         </video>
       </div>
@@ -224,10 +325,7 @@
           controls
           width="700"
           height="500"
-          style="video-align: right"
-        >
-          video2
-        </video>
+          style="video-align: right">video2</video>
       </div>
     </div>
     <div>

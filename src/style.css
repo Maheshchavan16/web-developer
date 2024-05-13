@@ -9,6 +9,18 @@
     
 }
 
+#audiodiv{
+    background-color:rgb(235, 85, 85) ;
+    
+}
+
+#prediv{
+    background-color:rgb(235, 85, 85) ;
+}
+#iframediv{
+    background-color: rgb(235, 85, 85);
+}
+
 .container {
     display: flex;
     justify-content: space-between;
